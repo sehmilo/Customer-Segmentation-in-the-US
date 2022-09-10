@@ -1,16 +1,19 @@
 # [Customer-Segmentation-in-the-US](https://github.com/sehmilo/Customer-Segmentation-in-the-US/blob/main/fed_reserve.ipynb)
-Example Data science Project
+
+Data Science Project
 
 # Table of Contents
 1. [Overview](#Overview)
 2. [About](#About)
-3. [Data Dictionary](#Data Dictionary*)
+3. [Dataframe Structure](#Dataframe Structure)
+4. [Data Dictionary](#Data Dictionary)
+5. [Acknowledgement](#Acknowlegdement)
 
 
 # Overview
-In this project, I used data obtained from [2019 Survey of Consumer Finances](https://www.federalreserve.gov/econres/scfindex.htm) data from the US Federal Reserve.
+In this [project](https://github.com/sehmilo/Customer-Segmentation-in-the-US/blob/main/fed_reserve.ipynb), I used data obtained from [2019 Survey of Consumer Finances](https://www.federalreserve.gov/econres/scfindex.htm) data from the US Federal Reserve.
 
-This project is an example of unsupervised learning, specifically **CLUSTERING**. It can be used in commercial contexts for marketing or customer segmentation or in sociological contexts to study social stratification.
+This [project](https://github.com/sehmilo/Customer-Segmentation-in-the-US/blob/main/fed_reserve.ipynb) is an example of unsupervised learning, specifically **CLUSTERING**. It can be used in commercial contexts for marketing or customer segmentation or in sociological contexts to study social stratification.
 
 Objectives include:
 - Compare characteristics across subgroups using a side-by-side bar chart.
@@ -43,7 +46,7 @@ The names of the participants in the survey are known only to NORC, which has mo
 # Dataframe structre
 ![alt](df_STRUCTURE.png)
 
-# Data Dictionary*
+# Data Dictionary [^1|
 
 | ### Feature  | ### Description   |
 |---|---|
@@ -64,8 +67,7 @@ The names of the participants in the survey are known only to NORC, which has mo
 | NHNFIN | total non-financial assets excluding principal residences, 2019 dollars |
 | NFIN | Total value of non-financial assets held by household, 2019 dollars |
 
-*The above do not represent the ==entirety== of the features in the dataset but rather commonly used features for this particular project.
-For details on full glossary and docmunentation visit the Survey Documentation and Analysis [codebook](https://sda.berkeley.edu/sdaweb/docs/scfcomb2019/DOC/hcbk.htm) as processed and compiled by the [University of California, Berkeley(https://www.berkeley.edu/)
+|^1|: The above do not represent the ==entirety== of the features in the dataset but rather commonly used features for this particular project.For details on full glossary and docmunentation visit the Survey Documentation and Analysis [codebook](https://sda.berkeley.edu/sdaweb/docs/scfcomb2019/DOC/hcbk.htm) as processed and compiled by the [University of California, Berkeley(https://www.berkeley.edu/)
 
 # Acknowledgement
 This Dataset is created from [2019 Survey of Consumer Finances](https://www.federalreserve.gov/econres/scfindex.htm) through [WorldQuant University](https://learn.wqu.edu/programs) Applied Data Science Lab  project assessment.
