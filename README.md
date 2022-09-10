@@ -5,8 +5,8 @@ Data Science Project
 # Table of Contents
 1. [Overview](#Overview)
 2. [About](#About)
-3. [Dataframe Structure](#Dataframe Structure)
-4. [Data Dictionary](#Data Dictionary)
+3. [Dataframe Structure](#Dataframe-Structure)
+4. [Data Dictionary](#Data-Dictionary)
 6. [Acknowledgement](#Acknowlegdement)
 
 
