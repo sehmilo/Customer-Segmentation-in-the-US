@@ -4,11 +4,11 @@ Example Data science Project
 # Table of Contents
 1. [Overview](#Overview)
 2. [About](#About)
-3. [Data Dictionary](#Data Dictionary)
+3. [Data Dictionary](#Data Dictionary*)
 
 
 # Overview
-In this project, I used data obtained from the [2019 Survey of Consumer Finances](https://www.federalreserve.gov/econres/scfindex.htm). 
+In this project, I used data obtained from [2019 Survey of Consumer Finances](https://www.federalreserve.gov/econres/scfindex.htm) data from the US Federal Reserve.
 
 This project is an example of unsupervised learning, specifically **CLUSTERING**. It can be used in commercial contexts for marketing or customer segmentation or in sociological contexts to study social stratification.
 
@@ -40,28 +40,39 @@ The confidentiality of the information provided in the study is of the highest i
 Strenuous efforts are made to protect the privacy of participants, and in the history of the survey, there has never been a leak. 
 The names of the participants in the survey are known only to NORC, which has more than 50 years of successful experience in collecting confidential information.
 
+# Dataframe structre
+![alt](df_STRUCTURE.png)
+
 # Data Dictionary*
 
 | ### Feature  | ### Description   |
 |---|---|
-| INCCAT | 	Income percentile groups |
-| HBUS | 	Have active or non-acti
-|   |   |
-|   |   |
-|   |   |
-| ### Feature | ### Description |vely managed business(es) |
-| DEBT | Total value of debt held by household, 2019 dollars|
-| HOUSES | Total value of primary residence of household, 2019 dollars |
-| INCOME | Total amount of income of household, 2019 dollars |
-| AGE | Age of reference person | 
-| EQUITY | Total value of financial assets held by household that are invested in stock, 2019 dollars |
-| FIN | Total value of financial assets held by household, 2019 dollars | 
-| KGBUS | Unrealized capital gains or losses on businesses, 2019 dollars |
 | ACTBUS | Total value of actively managed business(es), 2019 dollars |
+| AGE | Age of reference person | 
+| ASSET | Total value of assets held by household, 2019 dollars |
 | BUS | Total value of business(es) in which the household has either an active or nonactive interest, 2019 dollars |
+| DEBT | Total value of debt held by household, 2019 dollars |
+| EQUITY | Total value of financial assets held by household that are invested in stock, 2019 dollars |
+| FIN | Total value of financial assets held by household, 2019 dollars |
+| HBUS | 	Have active or non-actively managed business(es) |
+| HOUSES | Total value of primary residence of household, 2019 dollars |
+| INCCAT | 	Income percentile groups |
+| INCOME | Total amount of income of household, 2019 dollars | 
+| KGBUS | Unrealized capital gains or losses on businesses, 2019 dollars |
 | KGTOTAL | Total unrealized capital gains or losses for the household, 2019 dollars |
+| NETWORTH | Total net worth of household, 2019 dollars |
 | NHNFIN | total non-financial assets excluding principal residences, 2019 dollars |
 | NFIN | Total value of non-financial assets held by household, 2019 dollars |
-| NETWORTH | Total net worth of household, 2019 dollars |
-| ASSET | Total value of assets held by household, 2019 dollars |
+
+*The above do not represent the ==entirety== of the features in the dataset but rather commonly used features for this particular project.
+For details on full glossary and docmunentation visit the Survey Documentation and Analysis [codebook](https://sda.berkeley.edu/sdaweb/docs/scfcomb2019/DOC/hcbk.htm) as processed and compiled by the [University of California, Berkeley(https://www.berkeley.edu/)
+
+# Acknowledgement
+This Dataset is created from [2019 Survey of Consumer Finances](https://www.federalreserve.gov/econres/scfindex.htm) through [WorldQuant University](https://learn.wqu.edu/programs) Applied Data Science Lab  project assessment.
+Special thanks to [Professor Nicholas Cifuentes-Goodbody](https://www.linkedin.com/in/ncgoodbody/) 🙏.
+
+If you're interested in learning more about this dataset, or clustering in general, some projects that served as inspiration for this project are:
+
+- Hennig, C., & Liao, T. F. (2013). "How to find an appropriate clustering for mixed-type variables with application to socio-economic stratification." Journal of the Royal Statistical Society: Series C (Applied Statistics), 62(3), 309–369. [https://doi.org/10.1111/j.1467-9876.2012.01066.](https://rss.onlinelibrary.wiley.com/doi/10.1111/j.1467-9876.2012.01066.x)
+- Tatsat, H., Puri, S., & Lookabaugh, B. (2020). Machine learning and data science blueprints for finance: From building trading strategies to robo-advisors using Python. O’Reilly. [https://github.com/tatsath/fin-ml.](https://github.com/tatsath/fin-ml)
 
