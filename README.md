@@ -6,7 +6,7 @@ Data Science Project
 1. [Overview](#Overview)
 2. [About](#About)
 3. [Dataframe Structure](#Dataframe-Structure)
-4. [Data Dictionary](#Data-Dictionary)
+4. [Data Dictionary](#Data-Dictionary*)
 6. [Acknowledgement](#Acknowlegdement)
 
 
@@ -46,7 +46,7 @@ The names of the participants in the survey are known only to NORC, which has mo
 # Dataframe Structure
 ![alt](df_STRUCTURE.png)
 
-# Data Dictionary
+# Data Dictionary*
 |  Feature  | Description   |
 |---|---|
 | ACTBUS | Total value of actively managed business(es), 2019 dollars |
@@ -66,9 +66,7 @@ The names of the participants in the survey are known only to NORC, which has mo
 | NHNFIN | total non-financial assets excluding principal residences, 2019 dollars |
 | NFIN | Total value of non-financial assets held by household, 2019 dollars |
 
-Point to Note.(|^1|)
-
-(|^1|: The above do not represent the ==entirety== of the features in the dataset but rather commonly used features for this particular project.For details on full glossary and docmunentation visit the Survey Documentation and Analysis [codebook](https://sda.berkeley.edu/sdaweb/docs/scfcomb2019/DOC/hcbk.htm) as processed and compiled by the [University of California, Berkeley(https://www.berkeley.edu/))
+*The above do not represent the ##entirety of the features in the dataset but rather commonly used features for this particular project.For details on full glossary and docmunentation visit the Survey Documentation and Analysis [codebook](https://sda.berkeley.edu/sdaweb/docs/scfcomb2019/DOC/hcbk.htm) as processed and compiled by the [University of California, Berkeley(https://www.berkeley.edu/))
 
 # Acknowledgement
 This Dataset is created from [2019 Survey of Consumer Finances](https://www.federalreserve.gov/econres/scfindex.htm) through [WorldQuant University](https://learn.wqu.edu/programs) Applied Data Science Lab  project assessment.
