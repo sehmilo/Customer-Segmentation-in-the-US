@@ -6,7 +6,7 @@ Data Science Project
 1. [Overview](#Overview)
 2. [About](#About)
 3. [Dataframe Structure](#Dataframe-Structure)
-4. [Data Dictionary](#Data-Dictionary*)
+4. [Data Dictionary](#Data-Dictionary)
 6. [Acknowledgement](#Acknowlegdement)
 
 
@@ -46,7 +46,7 @@ The names of the participants in the survey are known only to NORC, which has mo
 # Dataframe Structure
 ![alt](df_STRUCTURE.png)
 
-# Data Dictionary*
+# Data Dictionary
 |  Feature  | Description   |
 |---|---|
 | ACTBUS | Total value of actively managed business(es), 2019 dollars |
@@ -66,14 +66,15 @@ The names of the participants in the survey are known only to NORC, which has mo
 | NHNFIN | total non-financial assets excluding principal residences, 2019 dollars |
 | NFIN | Total value of non-financial assets held by household, 2019 dollars |
 
-*The above do not represent the ##entirety of the features in the dataset but rather commonly used features for this particular project.For details on full glossary and docmunentation visit the Survey Documentation and Analysis [codebook](https://sda.berkeley.edu/sdaweb/docs/scfcomb2019/DOC/hcbk.htm) as processed and compiled by the [University of California, Berkeley(https://www.berkeley.edu/))
+_The above do not represent the ##entirety of the features in the dataset but rather commonly used features for this particular project.For details on full glossary and docmunentation visit the Survey Documentation and Analysis [codebook](https://sda.berkeley.edu/sdaweb/docs/scfcomb2019/DOC/hcbk.htm) as processed and compiled by the [University of California, Berkeley](https://www.berkeley.edu/)_
 
 # Acknowledgement
 This Dataset is created from [2019 Survey of Consumer Finances](https://www.federalreserve.gov/econres/scfindex.htm) through [WorldQuant University](https://learn.wqu.edu/programs) Applied Data Science Lab  project assessment.
+
 Special thanks to [Professor Nicholas Cifuentes-Goodbody](https://www.linkedin.com/in/ncgoodbody/) 🙏.
 
-If you're interested in learning more about this dataset, or clustering in general, some projects that served as inspiration for this project are:
 
+If you're interested in learning more about this dataset, or clustering in general, some projects that served as inspiration for this project are:
 - Hennig, C., & Liao, T. F. (2013). "How to find an appropriate clustering for mixed-type variables with application to socio-economic stratification." Journal of the Royal Statistical Society: Series C (Applied Statistics), 62(3), 309–369. [https://doi.org/10.1111/j.1467-9876.2012.01066.](https://rss.onlinelibrary.wiley.com/doi/10.1111/j.1467-9876.2012.01066.x)
 - Tatsat, H., Puri, S., & Lookabaugh, B. (2020). Machine learning and data science blueprints for finance: From building trading strategies to robo-advisors using Python. O’Reilly. [https://github.com/tatsath/fin-ml.](https://github.com/tatsath/fin-ml)
 
