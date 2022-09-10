@@ -43,12 +43,11 @@ The confidentiality of the information provided in the study is of the highest i
 Strenuous efforts are made to protect the privacy of participants, and in the history of the survey, there has never been a leak. 
 The names of the participants in the survey are known only to NORC, which has more than 50 years of successful experience in collecting confidential information.
 
-# Dataframe structre
+# Dataframe structure
 ![alt](df_STRUCTURE.png)
 
-# Data Dictionary [^1|
-
-| ### Feature  | ### Description   |
+# Data Dictionary
+|  Feature  | Description   |
 |---|---|
 | ACTBUS | Total value of actively managed business(es), 2019 dollars |
 | AGE | Age of reference person | 
@@ -67,6 +66,7 @@ The names of the participants in the survey are known only to NORC, which has mo
 | NHNFIN | total non-financial assets excluding principal residences, 2019 dollars |
 | NFIN | Total value of non-financial assets held by household, 2019 dollars |
 
+Point to Note.|^1|
 |^1|: The above do not represent the ==entirety== of the features in the dataset but rather commonly used features for this particular project.For details on full glossary and docmunentation visit the Survey Documentation and Analysis [codebook](https://sda.berkeley.edu/sdaweb/docs/scfcomb2019/DOC/hcbk.htm) as processed and compiled by the [University of California, Berkeley(https://www.berkeley.edu/)
 
 # Acknowledgement
