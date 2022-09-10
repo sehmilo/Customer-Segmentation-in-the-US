@@ -41,9 +41,15 @@ Strenuous efforts are made to protect the privacy of participants, and in the hi
 The names of the participants in the survey are known only to NORC, which has more than 50 years of successful experience in collecting confidential information.
 
 # Data Dictionary*
-| ### Feature | ### Description |
+
+| ### Feature  | ### Description   |
+|---|---|
 | INCCAT | 	Income percentile groups |
-| HBUS | 	Have active or non-actively managed business(es) |
+| HBUS | 	Have active or non-acti
+|   |   |
+|   |   |
+|   |   |
+| ### Feature | ### Description |vely managed business(es) |
 | DEBT | Total value of debt held by household, 2019 dollars|
 | HOUSES | Total value of primary residence of household, 2019 dollars |
 | INCOME | Total amount of income of household, 2019 dollars |
