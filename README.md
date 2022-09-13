@@ -1,4 +1,4 @@
-# [Customer-Segmentation-in-the-US](https://github.com/sehmilo/Customer-Segmentation-in-the-US/blob/main/fed_reserve.ipynb)
+# [Customer-Segmentation-in-the-US](https://github.com/sehmilo/Customer-Segmentation-in-the-US/blob/master/fed_reserve.ipynb)
 Data Science Project
 
 # Table of Contents
